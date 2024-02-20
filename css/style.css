@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+
+}
+
+.main-color {
+  background-color: rgb(177, 4, 4) !important;
+}
+
+.container h1 {
+  font-family: cursive, 'Times New Roman', Times, serif !important;
+}
+
+.banner {
+  height: 85vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../image/seblakbanner.jpeg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.hovered-card {
+  transition: .2s;
+}
+
+.hovered-card:hover {
+  transform: scale(1.1);
+}
+
+.icon-service {
+  width: 90px;
+  height: 90px;
+  border: solid #fff 2px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.color-footer {
+  background-color: rgb(94, 92, 92);
+}
+
+.banner-menu {
+  height: 65vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../image/seblak1.jpeg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.font-carousel {
+  color: gold;
+}
+
+.card-style {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important;
+}
